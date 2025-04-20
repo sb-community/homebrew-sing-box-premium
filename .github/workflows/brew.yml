@@ -3,7 +3,7 @@ name: Update Formula
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 1,15 * *'  # 每月的1号和15号定时更新
+    - cron: '30 0 1,15 * *'  # 每月的1号和15号定时更新
 
 jobs:
   update:
